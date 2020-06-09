@@ -36,7 +36,8 @@ namespace DatingApp.API
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseHttpsRedirection();
+            // Commented out this line as we aren't redirecting to HTTPS
+            //app.UseHttpsRedirection();
 
             app.UseRouting();
 
